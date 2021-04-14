@@ -1,12 +1,15 @@
 public class Practice {
     public static void main(String[] args) {
-        System.out.println("Hello Faizan Welcome to VS Code");
-        MyLinkedList list = new MyLinkedList();
+        // I am just practicing my DSA
 
-        list.add(5);
-        list.add(4);
-        list.add(8);
+        // MyLinkedList singlyList = new MyLinkedList();
+        MyDoublyLinkedList doublyList = new MyDoublyLinkedList();
 
-        list.print();
+        doublyList.add(5);
+        doublyList.add(4);
+        doublyList.add(8);
+
+        doublyList.delete(2);
+        doublyList.print();
     }
 }
